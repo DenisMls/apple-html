@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    display: flex;
+    max-width: 265px;
+    padding-top: 25px;
+    align-items: flex-start;
+    justify-content: space-between;
+    &-text__top {
+      font-family: 'FlareLightGothic';
+      font-size: 39px;
+      color: #fff;
+      line-height: 30px;
+    }
+    &-text__down {
+      font-family: 'FranklinGothic';
+      font-size: 17px;
+      color: #fff;
+    }
+  }
+
+  &-panel {
+    display: flex;
+    align-items: center;
+    max-width: 520px;
+    width: 100%;
+    justify-content: space-between;
+    &__a {
+      color: #d7d7e3;
+      font-size: 17px;
+      padding: 2px 5px;
+      &:hover {
+        color: #1d1d29;
+        padding: 2px 5px;
+        border-radius: 5%;
+        background-color: #d2d2d5;
+      }
+    }
+  }
+}

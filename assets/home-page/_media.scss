@@ -1,0 +1,50 @@
+@media screen and (max-width: 1076px) {
+  .cart-top {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .middle {
+    display: block;
+    &-text {
+      text-align: center;
+      & h1 {
+        font-size: 25px;
+        line-height: 25px;
+      }
+      & h2 {
+        font-size: 19px;
+        line-height: 25px;
+      }
+      & h4 {
+        max-width: none;
+        font-size: 17px;
+      }
+    }
+    &-img {
+      text-align: center;
+    }
+  }
+  .buttn-visible {
+    display: none;
+  }
+  .buttn-notvisible {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .passages-middle {
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+  }
+
+  .cart-middle {
+    flex-wrap: wrap;
+  }
+  .text-item--buttn {
+    margin: 0 auto;
+  }
+}
